@@ -15,7 +15,7 @@ void defaultConfig() {
   cfg.adrmode = 1;            // 0=disabled, 1=enabled
   cfg.screensaver = 0;        // 0=disabled, 1=enabled
   cfg.screenon = 1;           // 0=disabled, 1=enabled
-  cfg.countermode = 0;        // 0=cyclic, 1=cumulative, 2=cyclic confirmed
+  cfg.countermode = 1;        // 0=cyclic, 1=cumulative, 2=cyclic confirmed
   cfg.rssilimit = 0;          // threshold for rssilimiter, negative value!
   cfg.sendcycle = SENDCYCLE;  // payload send cycle [seconds/2]
   cfg.wifichancycle =
@@ -23,7 +23,7 @@ void defaultConfig() {
   cfg.blescantime =
       BLESCANINTERVAL /
       10;          // BT channel scan cycle [seconds/100], default 1 (= 10ms)
-  cfg.blescan = 0; // 0=disabled, 1=enabled
+  cfg.blescan = 1; // 0=disabled, 1=enabled
   cfg.wifiant = 0; // 0=internal, 1=external (for LoPy/LoPy4)
   cfg.vendorfilter = 1;       // 0=disabled, 1=enabled
   cfg.rgblum = RGBLUMINOSITY; // RGB Led luminosity (0..100%)

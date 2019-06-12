@@ -12,8 +12,8 @@
 
 #define HAS_LED NOT_A_PIN // no LED
 
-//#define HAS_LORA 1       // comment out if device shall not send data via LoRa
-//#define CFG_sx1276_radio 1 // HPD13A LoRa SoC
+#define HAS_LORA 0          // no LoRa module
+#define CFG_sx1272_radio 1  // dummy
 //#define BOARD_HAS_PSRAM // use extra 4MB external RAM
 //#define HAS_BUTTON GPIO_NUM_39 // on board button (next to reset)
 //#define BAT_MEASURE_ADC ADC1_GPIO35_CHANNEL // battery probe GPIO pin -> ADC1_CHANNEL_7
